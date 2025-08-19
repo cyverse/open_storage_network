@@ -4,11 +4,13 @@ University of Arizona hosts an [Open Storage Network (OSN)](https://www.openstor
 
 Managing allocations, storage buckets, and users is done through the user interface [Coldfront](https://coldfront.osn.mghpcc.org/). Credentials are through NSF ACCESS similar to Jetstream2. Coldfront [documentation](https://coldfront.osn.mghpcc.org/static/gen2docs/index.html)
 
-Reading and writing to buckets is done through command line tools like [rclone](https://openstoragenetwork.github.io/docs/dataset-access/rclone/)
+Reading and writing to buckets is done through command line tools like [rclone](https://openstoragenetwork.github.io/docs/dataset-access/rclone/) or [AWS CLI](https://openstoragenetwork.github.io/docs/dataset-access/aws-cli/)
 
 
 Copy file from local to cloud bucket
-`rclone copy /local/file.txt arizona_osn_lib:/ual`
+`rclone copy /local/file.txt <bucket_alias>:/<bucket_name`
+
+`rclone copy /home/jgillan/Downloads/collection25.json arizona_osn_lib:/ual`
 
 
 
