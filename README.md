@@ -1,6 +1,6 @@
 # open_storage_network
 
-University of Arizona hosts an [Open Storage Network (OSN)](https://www.openstoragenetwork.org/) pod on campus at UITS. The pod is ~ 1.4 petabytes of S3 cloud storage. 400 TBs has been given over to the OSN for communial use. 
+University of Arizona hosts an [Open Storage Network (OSN)](https://www.openstoragenetwork.org/) pod on campus at UITS. The pod is ~ 1.4 petabytes of S3 cloud storage. 400 TBs has been given over to the OSN for communial use. Most users of the OSN pod will do so through NSF ACCESS-CI. For our colleagues at UA, we may provide storage buckets without using ACCESS-CI
 
 Managing allocations, storage buckets, and users is done through the user interface [Coldfront](https://coldfront.osn.mghpcc.org/). Credentials are through NSF ACCESS similar to Jetstream2. Coldfront [documentation](https://coldfront.osn.mghpcc.org/static/gen2docs/index.html)
 
