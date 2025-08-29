@@ -6,6 +6,7 @@ Managing allocations, storage buckets, and users is done through the user interf
 
 Reading and writing to buckets is done through command line tools like [rclone](https://openstoragenetwork.github.io/docs/dataset-access/rclone/) or [AWS CLI](https://openstoragenetwork.github.io/docs/dataset-access/aws-cli/)
 
+Find the rclone config file on your machine `rclone config file`
 
 Copy file from local to cloud bucket
 `rclone copy /local/file.txt <bucket_alias>:/<bucket_name`
