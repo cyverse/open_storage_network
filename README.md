@@ -13,5 +13,8 @@ Copy file from local to cloud bucket
 
 `rclone copy /home/jgillan/Downloads/collection25.json arizona_osn_lib:/ual`
 
+Read an OSN S3 bucket
+
+`rclone lsd uaz-d2s-backup:uaz-d2s-backup/`
 
 
